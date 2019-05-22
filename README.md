@@ -1,8 +1,9 @@
 # Tidying the Human Activity Recognition Using Smartphones Data Set (Version 1) of The University of Genoa-SmartLab
 
-This repository cointains a tidy-data version of the *[Version 1 of the Human Activity Recognition Using Smartphones Data Set](https://sites.google.com/view/smartlabunige/research)* (**HAR_tidydata.txt**) and its codebook (**Codebook.Rmd**). It also contains an R script (**run_analysis.R**) to reformat the HAR dataset according to the rules of *[Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf)* . To execute the process of tidying the HAR data, the user should follow these steps:
+This repository cointains a tidy-data version of the *[Version 1 of the Human Activity Recognition Using Smartphones Data Set](https://sites.google.com/view/smartlabunige/research)* (**HAR_tidydata.txt**) and its codebook (**Codebook.md**). It also contains an R script (**run_analysis.R**) to reformat the HAR dataset according to the rules of *[Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf)*. To execute the process of tidying the HAR data, the user should follow these steps:
 
-        1. Download the script "run_analysis.R".
+        1. Set a working directory using the setwd() function in R.
+        1. Download the script "run_analysis.R" in the set working directory.
         2. Run the script "run_analysis.R" in R.
 
 ## Content of the script
