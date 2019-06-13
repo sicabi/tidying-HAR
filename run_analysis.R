@@ -287,3 +287,8 @@ write.table(x = HAR.dataset, file = "HAR_tidydata.txt", row.names = FALSE)
 txt.names <- list.files("DATASET_files/TXT_files/", full.names = TRUE)
 file.remove(txt.names)
 rm(txt.names)
+
+
+
+
+
